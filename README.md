@@ -42,10 +42,16 @@ Neptune | 3.883 | 17.1 | 5.43
 The defined named arguments are as follows:
 
 **--screen_size** - specifies the size of the screen and expects two integer values. It has a default value of **(800, 800)**.
+
 **--time_delta** - specifies the time delta for the simulation and expects a float value. It has a default value of **0.1**.
+
 **--trace enables** -  or disables tracing. It expects a boolean value (True or False). It has a default value of **False**.
+
 **--trace_length** - specifies the length of the trace and expects an integer value. It has a default value of **100**.
+
 **--show_gravitational_radius** - enables or disables showing the gravitational radius. It expects a boolean value. It has a default value of **False**.
+
 **--num_sun_rays** - specifies the number of sun rays and expects an integer value. It has a default value of **100**.
+
 
 
