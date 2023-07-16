@@ -6,7 +6,15 @@ The project includes the basic classes **Space** and **SpaceObject**. The subcla
 
 In **CopernicusSpace**, the planetary movements were described using geometry. Therefore, calculations occur separately for each object.
 
+![Copernicus model](https://github.com/Dispersik-com/solar_system_models/blob/master/screenshots/Copernicus.gif)
+
+![Sun light](https://github.com/Dispersik-com/solar_system_models/blob/master/screenshots/sun-light.png)
+
 In **NewtonSpace**, the main focus is on gravitational force and interaction between objects. Therefore, the primary calculations take place within the space itself.
+
+![Newton model](https://github.com/Dispersik-com/solar_system_models/blob/master/screenshots/Newton.gif)
+
+![Trace](https://github.com/Dispersik-com/solar_system_models/blob/master/screenshots/trace.png)
 
 ## Scientific Clarifications:
 
@@ -56,3 +64,5 @@ The defined named arguments are as follows:
 To enable the sun rays, simply click on the sun.
 
 If you want to exit - press "q".
+
+
