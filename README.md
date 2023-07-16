@@ -10,7 +10,7 @@ In **NewtonSpace**, the main focus is on gravitational force and interaction bet
 
 ## Scientific Clarifications:
 
-This work does not claim to be scientifically accurate and is created just for fun.
+This work does not claim to be scientifically accurate and is created **just for fun**.
 
 Therefore, the following clarifications are made:
 
@@ -33,9 +33,9 @@ Neptune | 3.883 | 17.1 | 5.43
 
 ## How to use:
 
-> python3 run_Copernicus_model.py
+`python3 run_Copernicus_model.py`
 
-> python3 run_Newton_model.py
+`python3 run_Newton_model.py`
 
 ### Args:
 
@@ -53,5 +53,6 @@ The defined named arguments are as follows:
 
 **--num_sun_rays** - specifies the number of sun rays and expects an integer value. It has a default value of **100**.
 
+To enable the sun rays, simply click on the sun.
 
-
+If you want to exit - press "q".

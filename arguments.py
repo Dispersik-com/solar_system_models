@@ -15,6 +15,6 @@ def create_arg_parser():
     parser.add_argument('--trace', type=bool, help='Enable or disable tracing', default=False)
     parser.add_argument('--trace_length', type=int, help='The length of the trace', default=100)
     parser.add_argument('--show_gravitational_radius', type=bool, help='Enable or disable showing gravitational radius', default=False)
-    parser.add_argument('--num_sun_rays', type=int, help='The number of sun rays', default=100)
+    parser.add_argument('--num_sun_rays', type=int, help='The number of sun rays', default=200)
 
     return parser

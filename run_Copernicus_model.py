@@ -92,7 +92,7 @@ if __name__ == '__main__':
     # get args from command line
     args = parser.parse_args()
 
-    space_objects = create_space_objects(screen_size)
+    space_objects = create_space_objects(args.screen_size)
     space = CopernicusSpace(space_objects)
 
     create_space_objects(screen_size)

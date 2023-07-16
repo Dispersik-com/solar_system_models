@@ -27,10 +27,14 @@ class Engine:
                         quit()
 
                 elif event.type == pygame.MOUSEBUTTONDOWN:
-                    if self.light_on:
-                        self.light_on = False
-                    else:
-                        self.light_on = True
+                    sun = space.get_object_by_name('Sun')
+
+                    if sun.x - sun.radius < pygame.mouse.get_pos()[0] < sun.x + sun.radius:
+                        if sun.y - sun.radius < pygame.mouse.get_pos()[1] < sun.y + sun.radius:
+                            if self.light_on:
+                                self.light_on = False
+                            else:
+                                self.light_on = True
 
 
             self.screen.fill(self.bg_color)
