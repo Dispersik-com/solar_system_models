@@ -1,8 +1,8 @@
 # solar_system_models
 
-This project is a simple example of simulating the movement of planets based on the ideas of different scientists. In this case, models of Copernicus and Newton are implemented, but in the future, I would like to also implement Einstein's model.
+This project is a simple example of simulating the movement of planets based on the ideas of different scientists. In this case, models of Copernicus and Newton are implemented, but in the future, I would like also to implement Einstein's model.
 
-The project includes the basic classes **Space** and **SpaceObject**. The subclasses of **Space**, **CopernicusSpace**, and **NewtonSpace**, implement mathematical models.
+The project includes the basic classes **Space** and **SpaceObject**. The subclasses of **Space**: **CopernicusSpace** and **NewtonSpace** implement mathematical models.
 
 In **CopernicusSpace**, the planetary movements were described using geometry. Therefore, calculations occur separately for each object.
 
