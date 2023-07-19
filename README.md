@@ -2,15 +2,15 @@
 
 This project is a simple example of simulating the movement of planets based on the ideas of different scientists. In this case, models of Copernicus and Newton are implemented, but in the future, I would like also to implement Einstein's model.
 
-The project includes the basic classes **Space** and **SpaceObject**. The subclasses of **Space**: **CopernicusSpace** and **NewtonSpace** implement mathematical models.
+The project includes the basic classes **Space** and **SpaceObject**. The subclasses of **Space** (**CopernicusSpace** and **NewtonSpace**) implement mathematical models.
 
-In **CopernicusSpace**, the planetary movements were described using geometry. Therefore, calculations occur separately for each object.
+In the Copernicus model each planet moves along its own geometric trajectory. In **CopernicusSpace** the calculation of the movement of each planet is independent.
 
 ![Copernicus model](https://github.com/Dispersik-com/solar_system_models/blob/master/screenshots/Copernicus.gif)
 
 ![Sun light](https://github.com/Dispersik-com/solar_system_models/blob/master/screenshots/sun-light.png)
 
-In **NewtonSpace**, the main focus is on gravitational force and interaction between objects. Therefore, the primary calculations take place within the space itself.
+In **NewtonSpace** the main focus is on gravitational force and interaction between the objects. Therefore, the primary calculations take place within the space itself.
 
 ![Newton model](https://github.com/Dispersik-com/solar_system_models/blob/master/screenshots/Newton.gif)
 
@@ -20,13 +20,13 @@ In **NewtonSpace**, the main focus is on gravitational force and interaction bet
 
 This work does not claim to be scientifically accurate and is created **just for fun**.
 
-Therefore, the following clarifications are made:
+Therefore, there are the following clarifications:
 
-1. The gravitational constant used in the project is much larger than the actual value. In the project, ~~G = 6.67430e-2~~, while the actual value is **G = 6.67430e-11**. This is done to scale the sphere of gravity.
+1. The gravitational constant, used in the project, is much larger than the actual value. In the project, ~~G = 6.67430e-2~~, while the actual value is **G = 6.67430e-11**. It was done to scale the sphere of gravity.
 
-2. Additionally, the mass of the planets is chosen based on a table of [relative values](https://en.wikipedia.org/wiki/List_of_Solar_System_objects_by_size).
+2. Additionally, the mass of the planets is chosen using a table of [relative values](https://en.wikipedia.org/wiki/List_of_Solar_System_objects_by_size).
 
-  Table of Relative Values:
+The Table of Relative Values:
 
 Planet | Relative Radius | Relative Mass | Relative Speed
 -------|----------------|---------------|---------------
